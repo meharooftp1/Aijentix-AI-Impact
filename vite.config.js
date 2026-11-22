@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     server: {
       proxy: {
         '/api': {
-          target: env.VITE_API_PROXY_TARGET || 'https://aijentixapi-3qnql9kbf-my-team-efa6.vercel.app/',
+          target: env.VITE_API_PROXY_TARGET || 'https://aijentixapi.vercel.app',
           changeOrigin: true,
           secure: false,
         },
