@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AZURE_STORAGE_CONNECTION_STRING": "<your-storage-account-connection-string>",
+    "ASSESSMENT_CONTAINER_NAME": "assessment-data",
+
+    "MARKETPLACE_AAD_TENANT_ID": "<the Entra ID tenant ID of the app registration you entered in Partner Center>",
+    "MARKETPLACE_AAD_CLIENT_ID": "<that app registration's Application (client) ID>",
+    "MARKETPLACE_AAD_CLIENT_SECRET": "<a client secret for that app registration>"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

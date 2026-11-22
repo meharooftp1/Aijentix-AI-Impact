@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+.vs/
+**/bin/
+**/obj/
+**/.vs/
+
+# Local-only config (never bake secrets into the image)
+appsettings.Development.json
+appsettings.json-*
+appsettings.Development.json-*
+appsettings.json-localDBWorking
+*.user
+
+# Delivered archives and docs
+*.zip
+DEPLOY-VERCEL.md
+Dockerfile
+.dockerignore

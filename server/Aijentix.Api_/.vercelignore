@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.zip
+appsettings.Development.json
+appsettings.json-*
+appsettings.Development.json-*
+appsettings.*local*.json

@@ -1,0 +1,10 @@
+# Upload only what the Vite build needs.
+# The API and the legacy Azure Functions app are separate Vercel projects.
+server/
+api/
+node_modules/
+dist/
+*.zip
+.env
+.env.local
+.env.*.local

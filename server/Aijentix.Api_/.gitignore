@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Never commit real secrets - production values live in Vercel env vars.
+appsettings.Development.json
+appsettings.json-*
+appsettings.Development.json-*
+appsettings.*local*.json
+
+# Delivered archives
+*.zip
